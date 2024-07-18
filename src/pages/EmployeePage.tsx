@@ -3,7 +3,7 @@ import { useQuery } from "react-query"
 import axios from "axios";
 import EmployeeProps from "../interfaces/EmployeeProps";
 
-const EmployeeList: React.FC = () => {
+const EmployeePage: React.FC = () => {
   const { data, isLoading } = useQuery<EmployeeProps[]>("employees", () => {
     console.log("entrou")
     return axios
@@ -34,4 +34,4 @@ const EmployeeList: React.FC = () => {
   )
 }
 
-export default EmployeeList;
+export default EmployeePage;

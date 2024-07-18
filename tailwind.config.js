@@ -13,6 +13,7 @@ export default {
       'gray-10': '#dfdfdf',
       'gray-20': '#9E9E9E',
       black: '#1C1C1C',
+      white: '#FFFFFF',
     },
   },
   plugins: [],

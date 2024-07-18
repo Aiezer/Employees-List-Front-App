@@ -1,10 +1,10 @@
 import React from "react"
-import EmployeeList from "./pages/EmployeeList"
+import EmployeePage from "./pages/EmployeePage"
 
 const App: React.FC = () => {
   return (
     <div>
-      <EmployeeList />
+      <EmployeePage />
     </div>
   )
 }

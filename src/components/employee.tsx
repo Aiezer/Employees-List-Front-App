@@ -32,9 +32,30 @@ const Employee: React.FC<EmployeeProps> = ({ id, name, job, admissionDate, phone
       {
         expanded && (
           <div className="mt-2 text-sm text-gray-500">
-            <div>Cargo: {job}</div>
-            <div>Data de admissão: {admissionDate}</div>
-            <div>Telefone: {phone}</div>
+            <div className='flex justify-between'>
+              <h2>
+                Cargo:
+              </h2>
+              <h2>
+                {job}
+              </h2>
+            </div>
+            <div className='flex justify-between'>
+              <h2>
+                Data de admissão:
+              </h2>
+              <h2>
+                {"admissionDate"}
+              </h2>
+            </div>
+            <div className='flex justify-between'>
+              <h2>
+                Telefone:
+              </h2>
+              <h2>
+                {phone}
+              </h2>
+            </div>
           </div>
         )
       }

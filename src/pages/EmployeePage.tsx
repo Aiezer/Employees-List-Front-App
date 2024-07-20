@@ -3,6 +3,8 @@ import { useQuery } from "react-query"
 import axios from "axios";
 import EmployeeProps from "../interfaces/EmployeeProps";
 import Employee from "../components/employee";
+import { formatDate } from "../utils/dateUtils";
+import { formatPhoneNumber } from "../utils/phoneUtils";
 
 const EmployeePage: React.FC = () => {
   const { data, isLoading } = useQuery<EmployeeProps[]>("employees", () => {
@@ -27,8 +29,8 @@ const EmployeePage: React.FC = () => {
           id={employee.id}
           name={employee.name}
           job={employee.job}
-          admissionDate={employee.admissionDate}
-          phone={employee.phone}
+          admission_date={formatDate(employee.admission_date)}
+          phone={formatPhoneNumber(employee.phone)}
           image={employee.image}
         />
       ))}

@@ -2,7 +2,7 @@ export default interface EmployeeProps {
   id: string
   name: string
   job: string
-  admissionDate: string
+  admission_date: string
   phone: string
   image: string
 }

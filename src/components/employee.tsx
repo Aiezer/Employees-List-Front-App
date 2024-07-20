@@ -12,18 +12,18 @@ const Employee: React.FC<EmployeeProps> = ({ id, name, job, admission_date, phon
         <div className="flex items-center">
           <img src={image} alt={name} className="w-[34px] h-[34px] rounded-full" />
         </div>
-        <div className="ml-4">
-          <div className="h3">{name}</div>
+        <div className="ml-4 flex justify-start align-baseline">
+          <div className="h3 flex justify-start">{name}</div>
         </div>
         <button onClick={() => setExpanded(!expanded)} >
           {<button onClick={() => setExpanded(!expanded)}>
             {expanded ? (
               <>
-                <BsChevronUp className="h-5 w-5 flex items-center justify-center" />
+                <BsChevronUp className="h-[32px] w-[32px] flex items-center justify-center" />
               </>
             ) : (
               <>
-                <BsChevronDown className="h-5 w-5 flex items-center justify-center" />
+                <BsChevronDown className="h-[32px] w-[32px] flex items-center justify-center" />
               </>
             )}
           </button>}

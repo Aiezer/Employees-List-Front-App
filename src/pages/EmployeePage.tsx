@@ -3,7 +3,7 @@ import EmployeeList from ".././components/EmployeeList"
 
 const App: React.FC = () => {
   return (
-    <div>
+    <div className="mx-10">
       <EmployeeList />
     </div>
   )

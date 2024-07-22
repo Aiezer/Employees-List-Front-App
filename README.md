@@ -1,5 +1,5 @@
 BeTalentProcess
-O BeTalentProcess é uma aplicação web desenvolvida para gerenciar e visualizar informações de funcionários. A aplicação permite listar os funcionários, visualizar detalhes específicos e realizar buscas por nome, cargo, data de admissão e telefone.
+O BeTalentProcess é uma aplicação web desenvolvida para gerenciar e visualizar informações de funcionários. A aplicação permite listar os funcionários, visualizar detalhes específicos e realizar buscas por nome, cargo e telefone.
 
 Funcionalidades
 Visualização de Funcionários: Exibe uma lista de funcionários com informações como nome, cargo, data de admissão, telefone e imagem.

@@ -17,9 +17,7 @@ npm ou Yarn
 Instalação
 Clone o repositório:
 
-bash
-Copiar código
-git clone https://github.com/username/BeTalentProcess.git
+<code>git clone https://github.com/username/BeTalentProcess.git<code>
 cd BeTalentProcess
 Instale as dependências:
 

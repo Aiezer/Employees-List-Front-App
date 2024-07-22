@@ -34,7 +34,8 @@ Configure o Backend:
 A aplicação utiliza um banco de dados local com json-server
 
 Executando o Projeto
-Inicie o Banco de dados local
+Inicie o Banco de dados local:
+
 <code>npm run db</code>
 
 Inicie o servidor de desenvolvimento:

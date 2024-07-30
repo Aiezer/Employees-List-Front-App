@@ -17,7 +17,7 @@ npm ou Yarn
 Instalação
 Clone o repositório:
 
-<code>git clone git@github.com:Aiezer/Desafio-Front-end-BeTalent.git</code>
+<code>git clone https://github.com/Aiezer/Desafio-Front-end-BeTalent.git</code>
 
 <code>cd BeTalentProcess</code>
 

@@ -1,4 +1,4 @@
-<h1>Emploeeys List</h1>
+<h1>Employees List</h1>
 Esta é uma aplicação web desenvolvida para gerenciar e visualizar informações de funcionários. A aplicação permite listar os funcionários, visualizar detalhes específicos e realizar buscas por nome, cargo e telefone.
 
 Funcionalidades
@@ -17,7 +17,7 @@ npm ou Yarn
 Instalação
 Clone o repositório:
 
-<code>git clone https://github.com/Aiezer/Desafio-Front-end-BeTalent.git</code>
+<code>git clone https://github.com/Aiezer/Employees-List-Front-App.git</code>
 
 <code>cd BeTalentProcess</code>
 
